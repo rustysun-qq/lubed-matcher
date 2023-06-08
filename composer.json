@@ -1,0 +1,25 @@
+{
+    "name":"lubed/matcher",
+    "type": "project",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.0",
+        "lubed/utils": "dev-main",
+        "lubed/supports":"dev-main",
+        "lubed/exceptions":"dev-main"
+    },
+    "require-dev": {
+    },
+    "config": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Lubed\\Matcher\\": "src/"
+        }
+    },
+    "scripts": {},
+    "conflict": {},
+    "extra": {}
+}
